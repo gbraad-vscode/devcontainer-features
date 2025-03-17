@@ -1,0 +1,24 @@
+{
+	"name": "Features devcontainer",
+	"build": {
+        "dockerfile": "./Containerfile",
+        "context": "."
+    },
+
+    "runArgs": [ "--cap-add=NET_ADMIN", "--cap-add=NET_RAW", "--device=/dev/net/tun", "--device=/dev/fuse" ],
+    "overrideCommand": false,
+    "privileged": true,
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.Theme-TomorrowKit"
+            ]
+        }
+    },
+
+    "features": {
+        "ghcr.io/gbraad-vscode/devcontainer-features/dotfiles:latest": {},
+        "ghcr.io/gbraad-vscode/devcontainer-features/tailscale:latest": {}
+    }
+}
