@@ -1,0 +1,17 @@
+{
+    "name": "tailscale",
+    "id": "tailscale",
+    "version": "1.0.0",
+    "description": "Install Tailscale",
+    "documentationURL": "https://github.com/gbraad-vscode/devcontainer-features/tree/main/src/tailscale",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "latest",
+            "proposals": [
+                "latest"
+            ],
+            "description": "Currently unused."
+        }
+    }
+}

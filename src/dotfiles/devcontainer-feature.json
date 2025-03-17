@@ -1,0 +1,17 @@
+{
+    "name": "dotfiles",
+    "id": "dotfiles",
+    "version": "1.0.0",
+    "description": "Install Gerard Braad's dotfiles",
+    "documentationURL": "https://github.com/gbraad-vscode/devcontainer-features/tree/main/src/dotfiles",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "latest",
+            "proposals": [
+                "latest"
+            ],
+            "description": "Currently unused."
+        }
+    }
+}
