@@ -1,0 +1,15 @@
+{
+    "name": "ssh-keys",
+    "id": "ssh-keys",
+    "version": "1.0.0",
+    "description": "Install Tailscale",
+    "documentationURL": "https://github.com/gbraad-vscode/devcontainer-features/tree/main/src/tailscale",
+    "options": {
+        "username": {
+            "type": "string",
+            "default": "gbraad",
+            "proposals": [ ],
+            "description": "The GitHub username used for public keys"
+        }
+    }
+}

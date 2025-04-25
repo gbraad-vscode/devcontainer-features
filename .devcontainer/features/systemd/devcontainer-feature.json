@@ -1,0 +1,8 @@
+{
+    "name": "systemd",
+    "id": "systemd",
+    "version": "1.0.0",
+    "description": "Install and start container with systemd",
+    "documentationURL": "https://github.com/gbraad-vscode/devcontainer-features/tree/main/src/systemd",
+    "entrypoint": "/sbin/init"
+}

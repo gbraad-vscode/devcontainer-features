@@ -18,6 +18,10 @@
     },
 
     "features": {
-        "./features/tailscale/": {}
+        "./features/tailscale/": {},
+        "./features/systemd/": {}
+        "./features/ssh-keys/": {
+            "username": "gbraad",
+        }
     }
 }
