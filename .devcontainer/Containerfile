@@ -7,12 +7,7 @@ LABEL org.opencontainers.image.source = "https://github.com/gbraad-vscode/"
 
 RUN apt-get update \
     && apt-get install -y \
-        systemd \
-	init \
         sudo \
         git \
         curl \
     && rm -rf /var/lib/apt/lists/*
-
-# Enable systemd
-ENTRYPOINT [ "/sbin/init" ]
