@@ -13,6 +13,7 @@
         "vscode": {
             "extensions": [
                 "ms-vscode.Theme-TomorrowKit",
+                "gbraad.analogue-clock",
                 "gbraad.dotfiles-checker",
                 "gbraad.dotfiles-tools",
 		        "gbraad.systemd-universal-manager"
@@ -22,6 +23,7 @@
 
     "features": {
         "./features/tailscale/": {},
+        "./features/cloudflared/": {},
         "./features/ssh-keys/": {
             "username": "gbraad"
         },
