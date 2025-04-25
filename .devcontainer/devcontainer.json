@@ -12,16 +12,19 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "ms-vscode.Theme-TomorrowKit"
+                "ms-vscode.Theme-TomorrowKit",
+                "gbraad.dotfiles-checker",
+                "gbraad.dotfiles-tools",
+		        "gbraad.systemd-universal-manager"
             ]
         }
     },
 
     "features": {
         "./features/tailscale/": {},
-        "./features/systemd/": {},
         "./features/ssh-keys/": {
             "username": "gbraad"
-        }
+        },
+        "ghcr.io/gbraad-dotfiles/devcontainer-features/dotfiles:latest": {}
     }
 }
