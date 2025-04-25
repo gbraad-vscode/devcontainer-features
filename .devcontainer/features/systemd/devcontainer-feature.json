@@ -2,7 +2,7 @@
     "name": "systemd",
     "id": "systemd",
     "version": "1.0.0",
-    "description": "Install and start container with systemd",
+    "description": "Install and start container with systemd (DOES NOT WORK AS EXPECTED)",
     "documentationURL": "https://github.com/gbraad-vscode/devcontainer-features/tree/main/src/systemd",
-    "entrypoint": "/sbin/init"
+    "entrypoint": "/sbin/init" // This gets wrapped in a /bin/sh devc-feat -c ...
 }
