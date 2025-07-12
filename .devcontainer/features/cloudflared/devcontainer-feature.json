@@ -1,7 +1,7 @@
 {
     "name": "cloudflared",
     "id": "cloudflared",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Install Cloudflare tunnels daemon)",
     "documentationURL": "https://github.com/gbraad-vscode/devcontainer-features/tree/main/src/cloudflared"
 }
