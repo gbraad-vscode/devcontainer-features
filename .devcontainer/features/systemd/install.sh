@@ -8,8 +8,8 @@ set -o allexport
 readonly NAME="systemd"
 
 install_requirements() {
-  APTPKGS="systemd init"
-  RPMPKGS="systemd"
+  APTPKGS="systemd init systemd-container"
+  RPMPKGS="systemd systemd-container"
 
   # Crude multi-os installation option
   if [ -x "/usr/bin/apt-get" ]
